@@ -1,0 +1,39 @@
+<resources>
+
+  <!--  // activity_control // -->
+  <string name="app_name">GPIO Controller</string>
+
+  <!--  'linear_layout_0' -->
+  <string name="text_view_ll_0_ac">List of devices</string>
+  <string name="button_0_ll_2_ac">Get devices</string>
+  <!--  menu item  -->
+  <string name="menu_item_bluetooth_adapter_ac">Bluetooth Adapter</string>
+  <string name="menu_item_control_panel_ac">Control panel</string>
+  <!--  context menu item -->
+  <string name="context_menu_item_connect_ac">Connect</string>
+
+
+  <!--  // activity_control_panel // -->
+  <string name="title_acp">Control panel</string>
+
+  <!--  'linear_layout_0' -->
+  <string name="text_view_ll_0_acp">Indicator LED</string>
+  <!--  'radio_group_0' button -->
+  <string name="r_button_turn_on_ll_0_acp">turn on</string>
+  <string name="r_button_turn_off_ll_0_acp">turn off</string>
+
+  <!--  'linear_layout_1' -->
+  <string name="text_view_ll_1_acp">Temperature</string>
+  <!--  'linear_layout_2' -->
+  <string name="text_view_ll_2_acp">.C</string>
+
+  <!--  menu item -->
+  <string name="menu_item_get_temperature_plot_acp">Get temperature plot</string>
+
+
+  <!--  // activity_plot // -->
+  <string name="title_ap">PlotActivity</string>
+  <!--  menu item -->
+  <string name="action_settings_ap">Settings</string>
+
+</resources>

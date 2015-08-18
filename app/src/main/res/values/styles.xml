@@ -1,0 +1,23 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat">
+    <!--  modify theme here -->
+    <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    <item name="actionBarStyle">@style/CustomActionBar</item>
+
+    <item name="android:windowBackground">@color/purple_500</item>
+  </style>
+
+  <style name="CustomActionBar" parent="Base.Widget.AppCompat.ActionBar">
+    <!--  text color for action bar title -->
+    <item name="android:titleTextStyle">@style/CustomActionBarTitleText</item>
+    <item name="titleTextStyle">@style/CustomActionBarTitleText</item>
+    <!--  background for action bar -->
+    <item name="android:background">@color/purple_900</item>
+    <item name="background">@color/purple_900</item>
+  </style>
+  
+  <style name="CustomActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/white</item>
+  </style>
+</resources>

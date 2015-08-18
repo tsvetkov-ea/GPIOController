@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="uart.rs232.gpiocontroller.ConnectActivity">
+
+  <group android:checkableBehavior="all">
+
+    <item android:id="@+id/menu_item_bluetooth_adapter_ac"
+          android:title="@string/menu_item_bluetooth_adapter_ac"
+          android:icon="@drawable/bluetooth"
+          android:checkable="true"
+          app:showAsAction="ifRoom"/>
+
+  </group>
+
+  <group android:visible="true">
+
+    <item android:id="@+id/menu_item_control_panel_ac"
+          android:title="@string/menu_item_control_panel_ac"
+          android:icon="@drawable/control_panel"
+          app:showAsAction="ifRoom"/>
+
+  </group>
+
+
+</menu>
